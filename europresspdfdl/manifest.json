@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "EuroPressPDFdL",
+  "version": "1.0",
+
+  "description": "Télécharge le pdf du site europress PDF",
+  
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.nouveau.europresse.com/*", "*://*.nouveau-europresse-com.proxy.scd.u-psud.fr/*", "*://*.nouveau-europresse-com.rp1.ensam.eu/*", "*://*.nouveau-europresse-com.proxy.rubens.ens.fr/*", "*://*.nouveau-europresse-com.ezproxy.uca.fr/*"],
+      "js": ["europress.js"]
+    }
+  ],
+  
+  "permissions": [
+        "activeTab","downloads","tabs","notifications"
+    ],
+
+  
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/page-16.png",
+      "32": "icons/page-32.png"
+    }
+  }
+
+}
