@@ -17,6 +17,10 @@ Dans Firefox : Ouvrez la page about:debugging, cliquez sur "Firefox" (dans les v
 ## Rassembler tous les PDF
 *Vous pouvez utiliser:* https://github.com/torakiki/pdfsam
 
+## Autres académies:
+Vous pouvez ajouter un nouveau lien dans le fichier *manifest.json* sous *matches*.
+
+---
 # Avertissement:
 ## Ce programme est donné tel quel, le contenu de EUROPRESSE est diffusé selon les lois et conventions internationales sur le droit d'auteur et à des fins de visualisation personnelle et temporaire.
 ### L'éditeur de ce programme ne peut être tenu responsable de toute activité frauduleuse.
