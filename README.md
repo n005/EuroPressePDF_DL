@@ -7,7 +7,10 @@ A FireFox EuroPresse PDF downloader
 ---
 # Instructions:
 ## Installation:
-Dans Firefox : Ouvrez la page about:debugging, cliquez sur "Firefox" (dans les versions plus récentes de Firefox), cliquez sur « Chargez un module complémentaire temporaire… », puis sélectionnez n'importe quel fichier dans le répertoire de votre extension.
+* Cliquez sur *code* et *téléchargez le zip*.
+Décompressez le fichier zip dans un dossier.
+
+* Dans Firefox : Ouvrez la page about:debugging, cliquez sur "Firefox" (dans les versions plus récentes de Firefox), cliquez sur « Chargez un module complémentaire temporaire… », puis sélectionnez n'importe quel fichier dans le répertoire de votre extension.
 
 ## Utilisation:
 * Allez sur l'article coorespondant au magazine.
